@@ -1,7 +1,7 @@
 # exercicios-python
 
 ## Zen of Python (O Zen do Python)
-## by Tim Peters
+by Tim Peters
 
 * Beautiful is better than ugly. (Bonito é melhor que feio.)
 * Explicit is better than implicit. (Explícito é melhor que implícito.)
