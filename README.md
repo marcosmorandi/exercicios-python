@@ -3,6 +3,9 @@
 # Descrição
 Exercícios para prática de Python.
 
+# Resumo da história do Python
+...
+
 # Zen of Python (O Zen do Python) </br> by Tim Peters
 
 * Beautiful is better than ugly. (Bonito é melhor que feio.)
