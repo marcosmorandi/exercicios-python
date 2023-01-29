@@ -23,3 +23,4 @@ Exercícios para prática de Python.
 * If the implementation is easy to explain, it may be a good idea. (Se a implementação é fácil de explicar, pode ser uma boa ideia.)
 * Namespaces are one honking great idea—let's do more of those! (Namespaces são uma grande ideia — vamos ter mais dessas!)
 ...
+123
