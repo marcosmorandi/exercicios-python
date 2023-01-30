@@ -14,7 +14,7 @@ Criada a linguagem em 1991, chegou um desafio, dar um nome a ela. No CWI existia
 
 Existe uma espécie de serpente com esse mesmo nome, Van Hossum e sua equipe tentaram fugir ao máximo dessa associação. Acontece que um dos primeiros livros de programação sobre Python, da editora O'Reilly, escolheu para estampar a capa exatamente a serpente Python (Píton em português brasileiro). Esse livro ajudou a popularizar a linguagem dentro do mercado. Então Guido Von Hossum teve que se render e aceitar a cobra como uma das representantes da linguagem. Por isso, hoje a logo da linguagem são duas serpentes entrelaçadas.
 
-Fica aí a curiosidade, ao contrário do que muitos podem pensar, seu nome foi por causa do réptil, e sim por causa do programa de televisão.
+Fica aí a curiosidade, ao contrário do que muitos podem pensar, seu nome não foi dado por causa do réptil, e sim por causa do programa de televisão.
 
 # Principais características do Python
 * Linguagem de propósito geral (não é focada em algo).
