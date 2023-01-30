@@ -25,9 +25,23 @@ Fica aí a curiosidade, seu nome inicialmente não era por causa do réptil, e s
 * Orientada a objetos.
 * Repleto de bibliotecas.
 
+# Principais áreas do Python
+* Inteligência artificial
+* Biotecnologia
+* Computação 3D
+* Ciência de dados
+
+# Alguns usuários famosos do Python
+* Google
+* YouTube
+* Nasa
+* Industrial Light & Magic (criadora do Star Wars)
+* Raspberry Pi
+* Arduino
+* Civilization IV (jogo eletrônico)
+* Battlefield 2 (jogo eletrônico)
 
 # Zen of Python (O Zen do Python) </br> by Tim Peters
-
 * Beautiful is better than ugly. (Bonito é melhor que feio.)
 * Explicit is better than implicit. (Explícito é melhor que implícito.)
 * Simple is better than complex. (Simples é melhor que complexo.)
