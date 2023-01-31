@@ -61,3 +61,8 @@ Fica aí a curiosidade, ao contrário do que muitos podem pensar, seu nome não 
 * If the implementation is hard to explain, it's a bad idea. (Se a implementação é difícil de explicar, é uma má ideia.)
 * If the implementation is easy to explain, it may be a good idea. (Se a implementação é fácil de explicar, pode ser uma boa ideia.)
 * Namespaces are one honking great idea—let's do more of those! (Namespaces são uma grande ideia — vamos ter mais dessas!)
+
+<!--
+Verificar a versão do python instala na máquina:
+No terminal "python --version"
+-->
