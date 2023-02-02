@@ -7,6 +7,6 @@ Exemplo:
 "A soma é 63 (errado, o certo é 9)"
 '''
 
-p_num = int(input('Primeiro número: ')) # "int" funciona melhor para número inteiros do que "float".
+p_num = int(input('Primeiro número: ')) # "int" funciona melhor para números inteiros do que "float".
 s_num = int(input('Segundo número: '))
 print('A soma é:', (p_num + s_num)) # Aqui o "+" não funciona, pois não se pode concatenar com "+" str com int, tem que usar ",".
