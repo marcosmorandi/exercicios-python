@@ -6,4 +6,4 @@ Exemplo:
 "Olá Gustavo! Prazer em te conhecer!"
 '''
 nome = input('Qual seu nome? ')
-print('Olá '+ nome+ '! Prazer te conhecer!') # Usando a "," ao invés do "+" a formatação do texto não ficava boa.
+print('Olá ' + nome + '! Prazer em te conhecer!') # Usando a "," ao invés do "+" a formatação do texto não ficava boa.
