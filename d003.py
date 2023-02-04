@@ -1,5 +1,5 @@
 '''
-Desafio 03 - Concluido
+Desafio 003 - Concluido
 Crie um programa que leia dois números e tente mostrar a soma entre eles.
 Exemplo:
 "Primeiro número: 6"

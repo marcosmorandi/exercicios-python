@@ -1,5 +1,5 @@
 '''
-Exercicio 03 - Concluido
+Exercício 003 - Concluido
 Crie um programa que leia dois números e tente mostrar a soma entre eles
 '''
 
