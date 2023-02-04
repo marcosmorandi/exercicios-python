@@ -1,5 +1,5 @@
 '''
-Desafio 02 - Concluido!
+Desafio 02 - Concluido
 Crie um programa que leia o dia, o mês e o ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada.
 Exemplo:
 "Dia: "
