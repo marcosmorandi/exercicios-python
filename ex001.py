@@ -1,5 +1,5 @@
 '''
-Exercício 001 - Concluido
+Exercício 001 - Feito
 Crie um programa que escreva "Olá, Mundo!" na tela.
 '''
 
