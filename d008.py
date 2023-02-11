@@ -1,11 +1,11 @@
 '''
-Desafio 008
+Desafio 008 - Feito
 Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros.
 '''
 
-metros = float(input('Digite uma valor em metros (use "." ao invés de ","): '))
+metros = float(input('\nDigite uma valor em metros (use "." ao invés de ","): '))
 
-centimetros = 0 # errado, arrumar
-milimetros = 0 # errado, arrumar
+centimetros = metros * 100
+milimetros = metros * 1000
 
-print('{} metros convertidos em centimetros são {} e convertido em milimetros são {}.'.format(metros, centimetros, milimetros))
+print('\n{} m (metros) convertido é: \nEm centimetros {:.0f} cm. \nEm milimetros {:.0f} mm.\n'.format(metros, centimetros, milimetros))
