@@ -3,7 +3,7 @@ Desafio 006 - Feito
 Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
 '''
 
-# Com 3 variáveis:
+# Com 4 variáveis:
 n = int(input('Digite um número: '))
 d = n * 2
 t = n * 3
