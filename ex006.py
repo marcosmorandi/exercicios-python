@@ -13,7 +13,7 @@ print('O dobro de {} vale {}.'.format(n, d))
 print('O triplo de {} vale {}. \nA raiz quadrada de {} é igual a {:.2f}.'.format(n, t, n, r)) # A mesma variável pode aparecer mais de uma vez no mesmo print.
 print('')
 
-# Com uma única variável:
+# Com 1 variável:
 n = int(input('Digite um número: '))
 print('O dobro de {} vale {}.'.format(n, (n*2)))
 print('O triplo de {} vale {}. \nA raiz quadrada de {} é igual a {:.2f}.'.format(n, (n*3), n, (n**(1/2)))) # A mesma variável pode aparecer mais de uma vez no mesmo print.
