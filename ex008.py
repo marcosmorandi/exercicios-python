@@ -1,5 +1,5 @@
 '''
-Exercicio 008 - Feito
+Exercício 008 - Feito
 Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros.
 '''
 
