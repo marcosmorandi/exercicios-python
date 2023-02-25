@@ -2,8 +2,9 @@
 Desafio 006 - Feito
 Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
 '''
-
-import math # Importando o biblioteca "math" para cáculo da raiz quadrada.
+# Importando o biblioteca "math" para cáculo da raiz quadrada, nesse caso importou toda biblioteca "math".
+# Se quiser importar apenas o "sqrt", para poupar memória por exemplo, o comando seria "from math import sqrt".
+import math
 
 numero = int(input('Digite um número: '))
 numero_dobro = numero * 2
