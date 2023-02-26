@@ -4,4 +4,4 @@ Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno,
 e tangente desse ângulo.
 '''
 
-# Dica: Acho que a math resolve esse aqui também.
+# dica: Acho que a math resolve esse aqui também
