@@ -5,7 +5,7 @@ Ex:
 Digite um numero: 6.127
 O número 6.127 tem a parte inteira 6.
 '''
-# Dica: Talvez o trunc do math resolva.
+# Dica: Talvez o "trunc" do "math" resolva.
 
 from math import trunc
 
