@@ -3,7 +3,6 @@ Desafio 019 - Feito
 Um professor quer sortear um dos seus quatro alunos para apagar o quadro...
 Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido.
 '''
-# Dica: "random" aqui?
 
 # Importando a biblioteca "random".
 import random
