@@ -11,4 +11,5 @@ from math import trunc
 
 numero = float(input('Digite um número real (com "."): '))
 inteiro = trunc(numero)
+
 print('Do número digitado {}, a parte inteira é {}.'.format(numero, inteiro))
