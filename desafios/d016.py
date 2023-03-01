@@ -5,8 +5,8 @@ Ex:
 Digite um numero: 6.127
 O número 6.127 tem a parte inteira 6.
 '''
-# Dica: Talvez o "trunc" do "math" resolva.
 
+# Importando apenas o "trunc" da biblioteca "math".
 from math import trunc
 
 numero = float(input('Digite um número real (com "."): '))
