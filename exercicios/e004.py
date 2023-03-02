@@ -8,7 +8,7 @@ Agora usando o format.
 
 i = input('Digite algo: ')
 print('O tipo primitivo desse valor é {}'.format(type(i)))
-print(f'Só tem espaços? {i.isspace()}') # Outra forma para o ".format", quando o de cima não funcionar.
+print(f'Só tem espaços? {i.isspace()}') # Outra forma para o ".format".
 print(f'É um número? {i.isnumeric()}')
 print(f'É alfabético? {i.isalpha()}')
 print(f'É alfanumérico? {i.isalnum()}')
