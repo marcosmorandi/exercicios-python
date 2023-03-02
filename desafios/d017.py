@@ -4,6 +4,7 @@ Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente 
 retângulo, calcule e mostre o comprimento da hipotenusa.
 '''
 
+# Importando toda a biblioteca "math".
 import math
 
 # Leitura dos comprimentos dos catetos.
