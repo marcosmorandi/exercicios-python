@@ -6,12 +6,12 @@ Digite um numero: 6.127
 O número 6.127 tem a parte inteira 6.
 '''
 
-# 1ª forma, importando toda a biblioteca "math".
+# 1ª forma. Importando toda a biblioteca "math".
 import math
 num = float(input('(1ª)Digite um valor: '))
 print('O valor digitado foi {} e sua porção interia é {}.'.format(num, math.trunc(num)))
 
-# 2ª forma, importando somente a função "trunch" da biblioteca "math".
+# 2ª forma. Importando somente a função "trunch" da biblioteca "math".
 from math import trunc
 num = float(input('(2ª)Digite um valor: '))
 print('O valor digitado foi {} e sua porção inteira é {}.'.format(num, trunc(num)))
