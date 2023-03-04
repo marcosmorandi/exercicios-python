@@ -18,8 +18,8 @@ print('O valor digitado foi {} e sua porção inteira é {}.'.format(num, trunc(
 
 # 3ª forma. Nem sempre é necessário importar módulos.
 num = float(input('(3ª)Digite um valor: '))
-print('O valor digitado foi {} e a sua porção inteira é {:.0f}.'.format(num, num))
+print('O valor digitado foi {} e a sua porção inteira é {}.'.format(num, int(num)))
 
 # 4ª forma. Também não é necessário importar módulos.
 num = float(input('(4ª)Digite um valor: '))
-print('O valor digitado foi {} e a sua porção inteira é {}.'.format(num, int(num)))
+print('O valor digitado foi {} e a sua porção inteira é {:.0f}.'.format(num, num))
