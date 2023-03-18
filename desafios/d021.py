@@ -8,8 +8,8 @@ Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
 
 from playsound import playsound
 
-# caminho do arquivo de áudio
+# Caminho do arquivo de áudio.
 path = "desafios\Bibio-Lovers_Carvings.mp3"
 
-# reproduz o arquivo de áudio
+# Reproduz o arquivo de áudio.
 playsound(path)
