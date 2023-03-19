@@ -14,7 +14,7 @@ pygame.mixer.init()
 # Inicializando o "Pygame".
 pygame.init()
 
-# No VSCode usar o ".\" para indicar o caminho do arquivo ".mp3".
+# No VSCode, indicar o caminho da pasta com o ".mp3" com ou sem o ".\".
 pygame.mixer.music.load('.\media\Bibio-Lovers_Carvings.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
