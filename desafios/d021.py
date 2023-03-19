@@ -9,7 +9,7 @@ Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
 from playsound import playsound
 
 # Caminho do arquivo de áudio.
-path = ".\media\Bibio-Lovers_Carvings.mp3"
+path = '.\media\Bibio-Lovers_Carvings.mp3'
 
 # Reproduz o arquivo de áudio.
 playsound(path)
