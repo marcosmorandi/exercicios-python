@@ -35,5 +35,3 @@ frase.split() # Divide onde tem espaço. Cada palavra recebe indexação nova.
 
 # Junção
 '-'.join(frase) # Cria um string única e onde tem espaço junta com o "-", se quiser juntar com espaço em branco "' '-.join(frase)".
-
-#29m
