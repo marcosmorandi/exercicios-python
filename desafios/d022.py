@@ -10,7 +10,7 @@ nome_completo = input('Digite o nome completo: ')
 print(nome_completo.upper()) # Letras maiúsculas. - ok
 print(nome_completo.lower()) # Letras minúsculas. - ok
 
-sem_espacos = nome_completo.strip() # Quantas letras ao todo (sem considerar espaços). - não ok
+sem_espacos = nome_completo.replace(' ', '') # Quantas letras ao todo (sem considerar espaços). - ok
 print(len(sem_espacos))
 
 divide_nomes = nome_completo.split() # Quantas letras tem o primeiro nome. - ok
