@@ -31,6 +31,3 @@ print(frase.split()) # Divide a frase.
 dividido = frase.split() # "dividido" recebe o "frase.split()".
 print(dividido[0]) # Exibe a parte "0" do split, ou seja, "Curso".
 print(dividido[2][3]) # Pega o dividido 2(Vídeo) e mostra a letra 3(e).
-
-
-# 39m40s
