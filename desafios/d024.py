@@ -4,9 +4,11 @@ Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com
 '''
 cidade = input(str('Digite o nome de uma cidade: '))
 
-if ('Santo' in cidade) == True:
-    print('Tem o nome "Santo" nessa cidade!')
-elif ('SANTO' in cidade) == True:
-    print('Tem o nome "Santo" nessa cidade!')
+cidade.split()
+
+if ('Santo' in cidade.split()[0]) == True:
+    print('Essa cidade começa com o nome "Santo"!')
+elif ('SANTO' in cidade.split()[0]) == True:
+    print('Essa cidade começa com o nome "Santo"!')
 else:
-    print('Não tem o nome "Santo" nessa cidade!')
+    print('Essa cidade não começa com o nome "Santo"!')
