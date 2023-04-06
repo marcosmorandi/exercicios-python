@@ -10,5 +10,7 @@ if ('Santo' in cidade.split()[0]) == True:
     print('Essa cidade começa com o nome "Santo"!')
 elif ('SANTO' in cidade.split()[0]) == True:
     print('Essa cidade começa com o nome "Santo"!')
+elif ('santo' in cidade.split()[0]) == True:
+    print('Essa cidade começa com o nome "Santo"!')
 else:
     print('Essa cidade não começa com o nome "Santo"!')
