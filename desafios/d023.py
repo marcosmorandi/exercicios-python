@@ -8,6 +8,7 @@ Dezena: 3
 Centenas: 8
 Milhar: 1
 '''
+
 numero = input(str('Digite um número de 0 a 9999: '))
 print(f'Unidade: {numero[3]}')
 print(f'Dezena: {numero[2]}')
