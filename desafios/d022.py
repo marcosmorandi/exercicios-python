@@ -6,6 +6,7 @@ Crie um programa que leia o nome completo de uma pessoa e mostre:
 * Quantas letras ao todo (sem considerar espaços).
 * Quantas letras tem o primeiro nome.
 '''
+
 nome_completo = input('Digite o nome completo: ')
 print(nome_completo.upper()) # Letras maiúsculas.
 print(nome_completo.lower()) # Letras minúsculas.
