@@ -9,11 +9,11 @@ Crie um programa que leia o nome completo de uma pessoa e mostre:
 
 nome_completo = input('Digite o nome completo: ')
 
-print(f'Seu nome em maiúsculas é {nome_completo.upper()}.') # Letras maiúsculas.
-print(f'Seu nome em minúsculas é {nome_completo.lower()}.') # Letras minúsculas.
+print(f'O nome em maiúsculas é {nome_completo.upper()}.') # Letras maiúsculas.
+print(f'O nome em minúsculas é {nome_completo.lower()}.') # Letras minúsculas.
 
 sem_espacos = nome_completo.replace(' ', '') # Quantas letras ao todo (sem considerar espaços).
-print(f'Seu nome tem ao todo {len(sem_espacos)} letras.')
+print(f'O nome tem ao todo {len(sem_espacos)} letras.')
 
 divide_nomes = nome_completo.split() # Quantas letras tem o primeiro nome.
-print(f'Seu primeiro nome tem {len(divide_nomes[0])} letras.')
+print(f'O primeiro nome tem {len(divide_nomes[0])} letras.')
