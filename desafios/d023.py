@@ -9,13 +9,13 @@ Centenas: 8
 Milhar: 1
 '''
 
-num = int(input('Informe um número: '))
-u = num // 1 % 10
-d = num // 10 % 10
-c = num // 100 % 10
-m = num // 1000 % 10
-print(f'Analisando o numero {num}')
-print(f'Unidade: {u}')
-print(f'Dezena: {d}')
-print(f'Centena: {c}')
-print(f'Milhar: {m}')
+numero = int(input('Informe um número: '))
+unidade = numero // 1 % 10
+dezena = numero // 10 % 10
+centena = numero // 100 % 10
+milhar = numero // 1000 % 10
+print(f'Analisando o numero {numero}')
+print(f'Unidade: {unidade}')
+print(f'Dezena: {dezena}')
+print(f'Centena: {centena}')
+print(f'Milhar: {milhar}')
