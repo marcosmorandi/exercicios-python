@@ -7,6 +7,7 @@ cidade = input(str('Digite o nome de uma cidade: ')).strip() # ".strip" remove e
 
 cidade = cidade.split() # ".split" divide a string onde tem espaço, recebendo indexação 0,1,2,3...
 
+# Tente antecipar qualquer possível erro do usuário e corrigir.
 if (cidade[0].lower()) == 'santo': # Independente de como o usuário digitar(minúscula, maiúscula, misturado), ele joga para minúscula e verifica a palavra na posição "0" da string.
     print('Esta cidade começa com o nome "Santo".')
 else:
