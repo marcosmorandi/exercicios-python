@@ -1,5 +1,5 @@
 '''
-Exercício 026
+Exercício 026 - Feito
 Faça um programa que leia uma frase pelo teclado e mostre:
 * Quantos vezes aparece a letra "A".
 * Em que posição ela aparece a primeira vez.
