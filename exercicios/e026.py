@@ -1,0 +1,8 @@
+'''
+Desafio 026 - Não feito, ver aula.
+Faça um programa que leia uma frase pelo teclado e mostre:
+* Quantos vezes aparece a letra "A".
+* Em que posição ela aparece a primeira vez.
+* Em que posição ela aparece a última vez.
+'''
+
