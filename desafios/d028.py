@@ -12,6 +12,6 @@ numero_aleatorio = random.randint(0,5) # A variável é definida usando o métod
 palpite = int(input('Tente advinhar o número gerado pelo computador, de 0 a 5: ')) # Lê o palpite do usuário.
 
 if palpite == numero_aleatorio: # Se o palpite for igual o numero aleatório:
-    print(f'Número gerado {numero_aleatorio}, seu palpite {palpite}. Paranéns, acertou!')
+    print(f'Número gerado {numero_aleatorio}, seu palpite {palpite}. Parabéns, acertou!')
 else: # Senão:
     print(f'Número gerado {numero_aleatorio}, seu palpite {palpite}. Que pena, errou!')
