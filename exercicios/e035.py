@@ -5,7 +5,7 @@ ou não formar um triângulo.
 '''
 
 # Pesquise o principio matemático que diz se 3 retas podem ou não formar um triângulo.
-# A regra é a seguinte: Cada um dos segumimentos tem que ser menor que a soma do comprimento dos outros dois.
+# A regra é a seguinte: Cada um dos segmentos tem que ser menor que a soma do comprimento dos outros dois.
 
 print('-=' * 20)
 print('Analisador de Triângulos')
