@@ -1,3 +1,7 @@
-nome  = str(input('Digite um nome: ')).strip()
-print(f'A última posição do nome é {(len(nome))}.')
-print(f'E é a letra {(nome[len(nome)])}.') # !!! IndexError: string index out of range !!! Não tem letra na posição 3.
+# Considere a string s = 'prova de python'. A instrução len(s) retornaria qual valor?
+s = 'prova de python'
+print(len(s))
+
+# Qual é o resultado calculado pelo Python para a expressão composta 3 * 5 + 4 ** 2?
+resultado = 3 * 5 + 4 ** 2
+print(f'{resultado}')
