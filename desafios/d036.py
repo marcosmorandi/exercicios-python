@@ -6,3 +6,6 @@ Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do 
 empréstimo será negado. Desconsidere os juros.
 '''
 
+valor_casa = float(input('Qual o valor da casa? '))
+salario = float(input('Qual o salário do comprador? '))
+anos_pagando = int(input('Em quantos anos vai pagar? '))
