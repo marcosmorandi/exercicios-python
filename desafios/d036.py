@@ -9,3 +9,7 @@ empréstimo será negado. Desconsidere os juros.
 valor_casa = float(input('Qual o valor da casa? '))
 salario = float(input('Qual o salário do comprador? '))
 anos_pagando = int(input('Em quantos anos vai pagar? '))
+
+prestacao = valor_casa / (anos_pagando + 11)
+
+print(f'Prestação Mensal de R$ {prestacao}.')
