@@ -13,7 +13,7 @@ anos_pagando = int(input('Em quantos anos vai pagar: '))
 prestacao_anual = valor_casa / anos_pagando
 prestacao_mensal = prestacao_anual / 12
 
-if prestacao_mensal > (salario * 30 / 100):
+if prestacao_mensal > (salario * 30 / 100): # Conferindo se a prestação mensal excede 30% do salário.
     print('Emprestimo negado!')
     print('O valor da prestação excede 30% do salário.')
     print(f'Prestação mensal: R$ {prestacao_mensal:.2f}')
