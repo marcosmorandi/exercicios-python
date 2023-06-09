@@ -13,7 +13,7 @@ base_conversao = int(input('''
                             1 - Binário
                             2 - Octal
                             3 - Hexadecimal
-
+                            
                             '''))
 
 if base_conversao != 1 and base_conversao != 2 and base_conversao != 3:
