@@ -7,3 +7,16 @@ a base de conversão:
 3 para hexadecimal
 '''
 
+numero = int(input('Digite um número inteiro: '))
+base_conversao = int(input('''
+                            Escolha a base de conversão
+                            1 - Binário
+                            2 - Octal
+                            3 - Hexadecimal
+
+                            '''))
+
+if base_conversao != 1 and base_conversao != 2 and base_conversao != 3:
+    print('Opção inválida!')
+else:
+    print('Opção válida!')
