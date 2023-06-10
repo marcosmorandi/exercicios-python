@@ -16,7 +16,11 @@ base_conversao = int(input('''
                             
                             '''))
 
-if base_conversao != 1 and base_conversao != 2 and base_conversao != 3:
-    print('Opção inválida!')
+if base_conversao == 1:
+    print('Conversão para binário!')
+elif base_conversao == 2:
+    print('Conversão para octal!')
+elif base_conversao == 3:
+    print('Conversão para hexadecimal!')
 else:
-    print('Opção válida!')
+    print('Opção inválida!')
