@@ -1,5 +1,5 @@
 '''
-Desafio 037 - Feito? Não!
+Desafio 037 - Feito
 Escreva um programa que leia um número inteiro qualquer e peça para o usuário escolher qual será
 a base de conversão:
 1 para binário
@@ -17,10 +17,13 @@ base_conversao = int(input('''
                             '''))
 
 if base_conversao == 1:
-    print('Conversão para binário!')
+    print(f'''Conversão para binário!
+{numero} convertido para binário é {bin(numero)[2:]}.''')
 elif base_conversao == 2:
-    print('Conversão para octal!')
+    print(f'''Conversão para octal!
+{numero} convertido para octal é {oct(numero)[2:]}''')
 elif base_conversao == 3:
-    print('Conversão para hexadecimal!')
+    print(f'''Conversão para hexadecimal!
+{numero} convertido para hexadecimal é {hex(numero)[2:]}''')
 else:
     print('Opção inválida!')
