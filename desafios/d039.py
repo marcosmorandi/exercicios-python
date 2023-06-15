@@ -14,6 +14,11 @@ ano_nascimento = int(input('Qual seu ano de nascimento: '))
 
 if date.today().year - ano_nascimento < 18:
     print('Ainda vai se alistar.')
+    tempo = 18 - (date.today().year - ano_nascimento)
+    if tempo == 1:
+        print(f'Ainda falta {tempo} ano para o alistamento.')
+    else:
+        print(f'Ainda faltam {tempo} anos para o alistamento.')
 elif date.today().year - ano_nascimento == 18:
     print('É hora de se alistar.')
 elif date.today().year - ano_nascimento > 18:
