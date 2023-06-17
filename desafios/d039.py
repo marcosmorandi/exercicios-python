@@ -1,5 +1,5 @@
 '''
-Desafio 039 - Quase pronto
+Desafio 039 - Feito
 Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com sua idade:
 - Se ele ainda vai se alistar ao serviço militar.
 - Se é a hora de se alistar.
@@ -23,3 +23,8 @@ elif date.today().year - ano_nascimento == 18:
     print('É hora de se alistar.')
 elif date.today().year - ano_nascimento > 18:
     print('Já passou do tempo do alistamento.')
+    tempo = (date.today().year - ano_nascimento) - 18
+    if tempo == 1:
+        print(f'Passou {tempo} ano do prazo de alistamento.')
+    else:
+        print(f'Passaram {tempo} anos do prazo de alistamento.')
