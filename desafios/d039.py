@@ -11,14 +11,19 @@ from datetime import date # Importa o ano atual.
 # date.today().year (ano atual).
 
 ano_nascimento = int(input('Qual seu ano de nascimento: '))
+idade = date.today().year - ano_nascimento
+
+print(f'Quem nasceu em {ano_nascimento} tem {idade} em {date.today().year}.')
 
 if date.today().year - ano_nascimento < 18:
     print('Ainda vai se alistar.')
     tempo = 18 - (date.today().year - ano_nascimento)
     if tempo == 1:
         print(f'Ainda falta {tempo} ano para o alistamento.')
+        print(f'Seu alistamento será em {(ano_nascimento) + 18}')
     else:
         print(f'Ainda faltam {tempo} anos para o alistamento.')
+        print(f'Seu alistamento será em {(ano_nascimento) + 18}')
 elif date.today().year - ano_nascimento == 18:
     print('É hora de se alistar.')
 elif date.today().year - ano_nascimento > 18:
@@ -26,5 +31,7 @@ elif date.today().year - ano_nascimento > 18:
     tempo = (date.today().year - ano_nascimento) - 18
     if tempo == 1:
         print(f'Passou {tempo} ano do prazo de alistamento.')
+        print(f'Seu alistamento foi ou deveria ter sido em {(ano_nascimento) + 18}')
     else:
         print(f'Passaram {tempo} anos do prazo de alistamento.')
+        print(f'Seu alistamento foi ou deveria ter sido em {(ano_nascimento) + 18}')
