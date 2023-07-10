@@ -5,7 +5,7 @@ atleta e mostre sua categoria, de acordo com a idade:
 - Até 9 anos: Mirin
 - Até 14 anos: Infantil
 - Até 19 anos: Junior
-- Até 20 anos: Sênior
+- Até 25 anos: Sênior
 - Acima: Master
 '''
 
@@ -29,7 +29,7 @@ elif idade <= 14:
 elif idade <= 19:
     print(f'{idade} anos')
     print('Categoria Junior')
-elif idade <= 20:
+elif idade <= 25:
     print(f'{idade} anos')
     print('Categoria Sênior')
 else:
