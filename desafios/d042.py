@@ -1,5 +1,5 @@
 '''
-Desafio 042 - Feito? Corrigir!
+Desafio 042 - Feito
 Refaça o desafio 035 dos triângulos, acrescentando o recurso de mostrar que tipo de triângulo
 será formado:
 - Equilátero: Todos os lado iguais
@@ -18,6 +18,6 @@ if ((reta_1 + reta_2) > reta_3) and ((reta_1 + reta_3) > reta_2) and ((reta_2 + 
     elif reta_1 != reta_2 and reta_2 != reta_3 and reta_1 != reta_3:
         print('Essas medidas formam um triângulo escaleno, com todos os lados diferentes.')
     else:
-        print('Essas medidas formam um triângulo isósceles, com dois lados iguas.')
+        print('Essas medidas formam um triângulo isósceles, com dois lados iguais.')
 else:
     print('Essas medidas não podem formar um triângulo.')
