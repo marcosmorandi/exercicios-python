@@ -16,7 +16,6 @@ imc = peso / (altura * altura) # "peso / (altura ** 2 )" também funciona.
 
 print(f'IMC {imc:.1f}')
 
-
 if imc < 18.5:
     print('Abaixo do peso.')
 elif imc >= 18.5 and imc < 25:
