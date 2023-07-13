@@ -11,17 +11,18 @@ status, de acordo com a tabela abaixo:
 altura = float(input('Digite a altura: '))
 peso = float(input('Digite o peso: '))
 
-imc = peso / (altura * altura)
+imc = peso / (altura * altura) # "peso / (altura ** 2 )" também funciona.
 
-print(f'IMC {imc:.2f}') # Com ":.1f" o "print" dos "elif" não funcionam.
+print(f'IMC {imc:.1f}')
+
 
 if imc < 18.5:
     print('Abaixo do peso.')
-elif imc >= 18.5 and imc <= 25.99: # Com uma casa decimal o "print" não funciona nos "elif".
+elif imc >= 18.5 and imc < 25:
     print('Peso ideal.')
-elif imc >= 26 and imc <= 30.99:
-    print('Sobrepeso')
-elif imc >= 31 and imc <= 40.99:
-    print('Obesidade')
+elif imc >= 25 and imc < 30:
+    print('Sobrepeso.')
+elif imc >= 30 and imc < 40:
+    print('Obesidade.')
 elif imc >= 41:
-    print('Obesidade mórbida')
+    print('Obesidade mórbida.')
