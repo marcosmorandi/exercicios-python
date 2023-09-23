@@ -4,8 +4,9 @@ Desenvolva uma programa que leia seis números inteiros e mostre a soma apenas d
 Se o valor digitado for ímpar, desconsidere-o.
 '''
 
+soma = int
 for c in range(1, 7):
     n = int(input('Digite um número inteiro: '))
     if n % 2 == 0:
-        soma = n + n
+        n = soma
 print(f'A soma dos números pares digitados é {n}.')
