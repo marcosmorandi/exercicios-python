@@ -1,5 +1,5 @@
 '''
-Desafio 052 - !bug - do 29 em diante ele não reconhece como primo!
+Desafio 052 - !Bug! Do 29 em diante ele não reconhece como primo.
 Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.
 Número primo: Divisível apenas por 1 e por ele mesmo)
 '''
