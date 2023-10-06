@@ -6,7 +6,7 @@ Crie um programa que mostre na tela todos os números pares que estão no interv
 # É sempre preferível fazer algoritmos que exijam menos das máquinas.
 for n in range(2, 51, 2):
     print('.', end='') # Aqui mostra a quantidade de laços de repetição, 1, metade da solução abaixo, o que economiza processamento.
-    print(n, end=' ') # O "end=''" serve para deixar tudo na mesa linha.
+    print(n, end=' ') # O "end=''" serve para deixar tudo na mesma linha.
 print('Acabou')
 
 # A solução abaixo também funciona, mas será feito 2 laços de repetição para cada resiltado, aumentando o processamento.
