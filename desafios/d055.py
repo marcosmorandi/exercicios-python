@@ -6,6 +6,7 @@ peso lido.
 
 maior_peso = 0
 menor_peso = 0
+
 for c in range(1, 6):
     peso = float(input(f'Digite o peso da pessoa {c}: '))
     
