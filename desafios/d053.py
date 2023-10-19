@@ -1,32 +1,19 @@
 '''
-Desafio 053 - !Bug! Da segunda frase em diante ele não reconhece como palíndromo.
-Crie um programa que leia uma frase qualquer e diga se ela é palíndromo, desconsidere os espaços.
-Palíndromo: Frase que pode ser lida do inicio ao fim ou do fim ao inicio e fica igual, desconsiderando espaços.
-Ex: apos a sopa, a sacada da casa, o lobo ama o bolo, anotaram a data da maratona.
+Desafio 053
+Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando
+os espaços.
+Ex: "apos a sopa", "a sacada de casa", "o lobo ama o bolo", "anotaram a data da maratona".
 '''
 
-def palindromo(frase):
-
-    # Remove espaços e converte a frase para letras minúsculas.
-    frase = frase.replace(" ", "").lower()
-
-    # Verifica se a frase é igual a sua inversa.
-    return frase == frase[::-1]
-
-# Solicita ao usuário que digite uma frase.
-frase = str(input('Digite uma frase para verificar se é palíndromo: '))
-
-# Inicializa uma variável para armazenar a resposta.
-palindromo = True
-
-# Itera sobre a metade da frase (desconsiderando os espaços)
-for c in range(len(frase) // 2):
-    if frase[c] != frase[-c - 1]:
-        palindromo = False
-        break
-
-# Verifica se a frase é um palídromo
-if palindromo:
-    print(f'A frase {frase} é um palíndromo.')
+frase = str(input('Digite uma frase: ')).strip().upper() # ".strip()" tira espaços, ".upper()" deixa em maiusculo. Para realizar a comparação.
+palavras = frase.split() # ".split()" separa a frase em palavras onte tem espaço.
+junto = ''.join(palavras) # "''.join()" juntas as palavras sem espaços.
+#inverso = ''
+inverso = junto[::-1] # Simplificando 1 linha acima e 2 linhas abaixo "[::-1]", do inicio ":", ao fim ":", de trás para frente "-1". Sem o "for". Fatiamento no Python.
+#for letra in range(len(junto) - 1, -1, -1):
+#    inverso += junto[letra]
+print(f'O inverso de "{junto}" é "{inverso}".')
+if inverso == junto:
+    print('Temos um palíndromo!')
 else:
-    print(f'A frase {frase} não é um palíndromo')
+    print('A frase digitada não é um palíndromo!')
