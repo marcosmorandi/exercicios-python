@@ -2,7 +2,7 @@
 Exercício 053 - Feito
 Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando
 os espaços.
-Ex: "apos a sopa", "a sacada de casa", "o lobo ama o bolo", "anotaram a data da maratona".
+Ex: "apos a sopa", "a sacada da casa", "o lobo ama o bolo", "anotaram a data da maratona".
 '''
 
 frase = str(input('Digite uma frase: ')).strip().upper() # ".strip()" tira espaços, ".upper()" deixa em maiusculo. Para realizar a comparação.
