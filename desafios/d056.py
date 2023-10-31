@@ -1,13 +1,14 @@
 '''
-Desafio 056
+Desafio 056 - !Corrigir!
 Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa mostre:
 * A média de idade do grupo.
 * Qual é o nome do homem mais velho.
 * Quantas mulheres têm menos de 20 anos.
 '''
 
+soma_idade = 0
 media_idade = 0
-nome_homem_mais_velho = str
+nome_homem_mais_velho = ''
 idade_homem_mais_velho = 0
 mulheres_menos_vinte_anos = 0
 for pessoa in range(1, 5):
