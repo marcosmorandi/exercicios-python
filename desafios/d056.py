@@ -1,5 +1,5 @@
 '''
-Desafio 056 - !Corrigir!
+Desafio 056 - Feito
 Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa mostre:
 * A média de idade do grupo.
 * Qual é o nome do homem mais velho.
@@ -16,17 +16,16 @@ for pessoa in range(1, 5):
     nome = str(input(f'Qual o nome da {pessoa}ª pessoa: '))
     idade = int(input(f'Qual a idade da {pessoa}ª pessoa: '))
     sexo = str(input(f'Qual o sexo da {pessoa}ª pessoa (M/F): '))
-    media_idade += idade
-    if sexo == "m" or sexo == "M":
+    soma_idade += idade # Nesse caso a "soma_idade" recebe ela mesma mais a "idade".
+    if pessoa == 1 and sexo in 'Mm': # Nesse caso o "in" compara "M" e "m", maiúsculo e minúsculo.
         idade_homem_mais_velho = idade
         nome_homem_mais_velho = nome
-    else:
-        if sexo == "m" or sexo == "M" and idade > idade_homem_mais_velho:
-            idade_homem_mais_velho = idade
-            nome_homem_mais_velho == nome
-    if sexo == "f" or sexo == "F" and idade < 20:
-        mulheres_menos_vinte_anos += 1
-media_idade = media_idade / 4
-print(f'\nA média de idade do grupo é de {media_idade} anos.')
-print(f'O homem mais velho tem {idade_homem_mais_velho} anos e se chama {nome_homem_mais_velho}.')
-print(f'Ao todo são {mulheres_menos_vinte_anos} mulheres com menos de 20 anos.')
+    elif sexo in 'Mm' and idade > idade_homem_mais_velho:
+        nome_homem_mais_velho = nome
+        idade_homem_mais_velho = idade
+    elif sexo in 'Ff' and idade < 20:
+        mulheres_menos_vinte_anos += 1 # Aqui "mulheres_menos_vinte_anos" recebe ele mesmo mais 1.
+media_idade = soma_idade / 4
+print(f'A média da idade do grupe é de {media_idade} anos.')
+print(f'O homem mais velho do grupo é o {nome_homem_mais_velho}, com {idade_homem_mais_velho} anos.')
+print(f'No total {mulheres_menos_vinte_anos} mulheres tem menos de 20 anos.')
