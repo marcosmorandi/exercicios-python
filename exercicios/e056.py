@@ -17,7 +17,7 @@ for p in range(1, 5):
     idade = int(input('Idade: '))
     sexo = str(input('Sexo [M/F]: ')).strip()
     somaidade += idade # Nesse caso a "somaidade" recebe ela mesma mais a "idade".
-    if p == 1 and sexo in 'Mm': # Nesse caso o "in" compara "M" e "m", maiúsculo e minusculo.
+    if p == 1 and sexo in 'Mm': # Nesse caso o "in" compara "M" e "m", maiúsculo e minúsculo.
         maioridadehomem = idade
         nomevelho = nome
     if sexo in 'Mm' and idade > maioridadehomem:
