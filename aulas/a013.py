@@ -33,3 +33,5 @@ for c in range(0, 4):
     n = int(input('Digite um valor: '))
     s = s + n # No Python pode ser representado por "s += n"
 print(f'O somatório de todos os valores foi {s}')
+
+#    "if pessoa == 1 and sexo in 'Mm':" Nesse caso o "in" compara "M" e "m", maiúsculo e minúsculo.
