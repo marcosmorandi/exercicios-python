@@ -5,7 +5,7 @@ Caso esteja errado, peça a digitação novamente até ter um valor correto.
 '''
 
 nome = str(input('Digite o nome: '))
-sexo = str(input('Digite o sexo (M/F): ')).upper()
+sexo = str(input('Digite o sexo (M/F): ')).upper()[0].strip() # "upper" para maiúscula, "[0]" pega só a primeira letra, "strip" elimina possíveis espaços vazios.
 while sexo != 'M' and sexo != 'F':
     print('Valor informado para o "sexo" inválido, tente novamente!')
     sexo = str(input('Digite o sexo (M/F): ')).upper()
