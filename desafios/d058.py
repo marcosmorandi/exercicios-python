@@ -24,7 +24,7 @@ palpite = int(input('Digite seu palpite (0 a 10): '))
 total_palpites = 1
 while numero_aleatorio != palpite:
     total_palpites += 1
-    print('Você error, tente denovo!')
+    print('Você errou, tente denovo!')
     palpite = int(input('Digite seu palpite (0 a 10): '))
 print('Acertou!')
 print(f'Numero gerado: {numero_aleatorio}\nSeu palpite: {palpite}\nPalpites necessários para vencer: {total_palpites}')
