@@ -32,18 +32,14 @@ primeiro = int(input('Primeiro termo: '))
 razao = int(input('Razão da PA: '))
 termo = primeiro
 contador = 1
-print('Os 10 primeiros termos dessa PA são:')
-while contador <= 10:
-    print(f'{termo} -> ', end='')
-    termo += razao
-    contador += 1
-
-novo_contador = 1
-mais_termos = int(input('\nSe deseja mostrar mais termos, digite o valor ou digite "0" para parar: '))
-if mais_termos != 0:
-    while novo_contador <= mais_termos:
+total = 0
+mais_termos = 10
+while mais_termos != 0:
+    total += mais_termos
+    while contador <= total:
         print(f'{termo} -> ', end='')
         termo += razao
-        novo_contador += 1
-
-print('FIM')
+        contador += 1
+    print('PAUSA')
+    mais_termos = int(input('Quantos termos você quer mostrar a mais ou digite "0" para parar: '))
+print(f'Progressão finalizada com {total} termos mostrados.')
