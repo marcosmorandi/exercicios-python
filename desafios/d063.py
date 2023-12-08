@@ -8,11 +8,11 @@ Ex:
 
 numero = int(input('Digite um número inteiro para a Sequência de Fibonacci: '))
 
-a, b = 0, 1
+a, b = 0, 1 # Inicializa as variáveis para os dois primeiros elementos da sequência.
 
 contador = 0
 
-while contador < numero:
+while contador < numero: # Imprime ate a numero definido.
     print(a, end=' ')
     a, b = b, a + b
     contador += 1
