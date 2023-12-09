@@ -6,12 +6,10 @@ Ex:
 0 > 1 > 1 > 2 > 3 > 5 > 8
 '''
 
+# A Sequência de Fibonacci começa com 0 e 1 e os próximos numeroes são a soma dos dois anteriores.
 numero = int(input('Digite um número inteiro para a Sequência de Fibonacci: '))
-
 a, b = 0, 1 # Inicializa as variáveis para os dois primeiros elementos da sequência.
-
 contador = 0
-
 while contador < numero: # Imprime ate a numero definido.
     print(a, end=' ')
     a, b = b, a + b
