@@ -14,3 +14,13 @@ O programa será interrompido quando o número solicitado for negativo.
 # Quer ver a tabua de que valor: -x
 # ---------------------------------
 # Programa tabuada encerrado. Volte sempre!
+
+contador = 0
+while True:
+    tabuada = int(print('Quer ver a tabuada de qual valor(- para parar): '))
+    if tabuada == -:
+        break
+    else:
+        contador +=1
+        print(f'{contador} x {tabuada} = {contador * tabuada}')
+print('Programa tabuada encerrado. Volte sempre!')
