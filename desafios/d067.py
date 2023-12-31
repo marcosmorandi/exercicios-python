@@ -1,5 +1,5 @@
 '''
-Desafio 067
+Desafio 067 - Feito
 Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado
 pelo usuário.
 O programa será interrompido quando o número solicitado for negativo.
@@ -15,12 +15,10 @@ O programa será interrompido quando o número solicitado for negativo.
 # ---------------------------------
 # Programa tabuada encerrado. Volte sempre!
 
-contador = 0
 while True:
-    tabuada = int(print('Quer ver a tabuada de qual valor(- para parar): '))
-    if tabuada == -:
+    tabuada = int(input('Quer ver a tabuada de qual valor(-qualquer número para parar): '))
+    if tabuada < 0:
         break
-    else:
-        contador +=1
-        print(f'{contador} x {tabuada} = {contador * tabuada}')
+    for controle in range(1, 11):
+        print(f'{controle} x {tabuada} = {controle * tabuada}')
 print('Programa tabuada encerrado. Volte sempre!')
