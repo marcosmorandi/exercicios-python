@@ -33,16 +33,17 @@ ele conquistou no final do jogo.
 
 from random import randint
 from time import sleep
-
 venceu = 0
 while True:
     print('=-' * 20)
     print('Vamos jogar par ou ímpar')
     print('=-' * 20)
     n_jogador = int(input('Diga um valor: '))
-    p_i = str(input('Par ou Ímpar?[P/I]: ')).lower()
-    n_computador = randint(0, 10)
+    n_computador = randint(0, 11)
     soma = n_jogador + n_computador
+    p_i = ' ' # Inicializa a variável "p_i" com uma string vazia.
+    while p_i not in 'pi': # Enquanto não for digitado "p" ou "i", o programa continua perguntando.
+        p_i = str(input('Par ou Ímpar?[P/I]: ')).lower().strip()[0] # "lower" deixa minúsculo, "strip" remove espaços em branco, "[0]" pega só a primeira letra.
     print('-' * 20)
     if soma % 2 == 0:
         print(f'Você jogou {n_jogador} e o computador {n_computador}. Total de {soma}, DEU PAR!')
