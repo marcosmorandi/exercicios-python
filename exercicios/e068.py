@@ -11,8 +11,8 @@ while True:
     jogador = int(input('Diga um valor: '))
     computador = randint(0, 11)
     total = jogador + computador
-    tipo = ' '
-    while tipo not in 'PI':
+    tipo = ' ' # Inicializa a variável "tipo" com uma string vazia.
+    while tipo not in 'PI': # Enquanto não for digitado 'P' ou 'I', o programa contina perguntando.
         tipo = str(input('Par ou Ímpar [P/I]: ')).strip().upper()[0] # "strip" remove espaços vazios do começo e final, "upper" deixa maiúsculo, "[0]" pega só a primeira letra.
     print(f'Você jogou {jogador} e o computador {computador}. Total de {total} ', end='')
     print('DEU PAR' if total % 2 == 0 else 'DEU ÍMPAR')
