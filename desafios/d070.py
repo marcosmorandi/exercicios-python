@@ -1,5 +1,5 @@
 '''
-Desafio 070 - Feito
+Desafio 070 - Bug no produto mais barato
 Crie um programa que leia o nome e o preço de vários produtos. O programa deverá perguntar se o 
 usuário vai continuar. No final, mostre:
 A) Qual é o total gasto na compra.
